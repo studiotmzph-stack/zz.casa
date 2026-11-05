@@ -1,0 +1,8 @@
+# Documentación y archivos que no hacen falta en producción
+README.md
+SUBIR.md
+images/LEEME.md
+images/moodboards/LEEME.md
+.github/
+.gitattributes
+.gitignore

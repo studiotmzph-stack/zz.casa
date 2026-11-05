@@ -1,0 +1,17 @@
+# Normalizar finales de línea y tratar binarios como binarios
+* text=auto eol=lf
+
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.avif binary
+*.gif binary
+*.ico binary
+
+*.html text
+*.css text
+*.js text
+*.json text
+*.md text
+*.svg text

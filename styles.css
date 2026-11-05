@@ -1,0 +1,53 @@
+/* ==========================================================================
+   TALLER ZZ — UNIVERSO
+   Fondo blanco. Sin interfaz: solo el sistema 3D.
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+  background: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+body {
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#gl {
+  position: fixed;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  cursor: grab;
+  touch-action: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#gl.is-grabbing {
+  cursor: grabbing;
+}
+
+::selection {
+  background: #171714;
+  color: #ffffff;
+}
